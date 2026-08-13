@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inquiry | Vobux International</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+
+        <img
+          src="images/vobuxlogo.png"
+          alt="Vobux International"
+          class="logo-icon"
+        >
+
+        <div class="logo-text" style="color: black;">
+          Vobux <span>International</span>
+        </div>
+
+      </a>
+
+
+      <nav class="nav">
+
+        <a href="index.html" class="nav-link">
+          Home
+        </a>
+
+        <a href="about.html" class="nav-link">
+          About Us
+        </a>
+
+
+        <div class="dropdown">
+
+          <a href="products.html" class="nav-link">
+            Products ▾
+          </a>
+
+          <div class="dropdown-menu">
+
+            <a href="garments.html" class="dropdown-item">
+              Garments
+            </a>
+
+            <a href="undergarments.html" class="dropdown-item">
+              Undergarments
+            </a>
+
+            <a href="shoes.html" class="dropdown-item">
+              Shoes
+            </a>
+
+            <a href="socks.html" class="dropdown-item">
+              Socks
+            </a>
+
+            <a href="crocs.html" class="dropdown-item">
+              Crocs
+            </a>
+
+            <a href="handbags.html" class="dropdown-item">
+              Handbags
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <a href="why-us.html" class="nav-link">
+          Why Us
+        </a>
+
+        <a href="news.html" class="nav-link">
+          News
+        </a>
+
+        <a href="inquiry.html" class="nav-link active">
+          Inquiry
+        </a>
+
+        <a href="contact.html" class="nav-link">
+          Contact
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+
+    <div class="container">
+
+      <h1>
+        Send an Inquiry
+      </h1>
+
+      <p>
+        Get in touch with us for quotes, partnerships, and product information.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- INQUIRY SECTION -->
+  <section class="content-section alt">
+
+    <div class="container">
+
+      <div class="section-header">
+
+        <div class="section-label">
+          Get Started
+        </div>
+
+        <h2 class="section-title">
+          Request a Quote
+        </h2>
+
+        <p class="section-desc">
+          Fill out the form below and our team will respond within 3 business days.
+        </p>
+
+      </div>
+
+
+      <div style="max-width: 700px; margin: 0 auto;">
+
+        <form id="inquiryForm">
+
+
+          <!-- NAME + COMPANY -->
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label class="form-label" for="name">
+                Your Name *
+              </label>
+
+              <input
+                type="text"
+                id="name"
+                class="form-input"
+                placeholder="Full name"
+                required
+              >
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label class="form-label" for="company">
+                Company Name
+              </label>
+
+              <input
+                type="text"
+                id="company"
+                class="form-input"
+                placeholder="Company / Organization"
+              >
+
+            </div>
+
+          </div>
+
+
+          <!-- EMAIL + PHONE -->
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label class="form-label" for="email">
+                Email *
+              </label>
+
+              <input
+                type="email"
+                id="email"
+                class="form-input"
+                placeholder="email@company.com"
+                required
+              >
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label class="form-label" for="phone">
+                Phone
+              </label>
+
+              <input
+                type="tel"
+                id="phone"
+                class="form-input"
+                placeholder="+1 234 567 8900"
+              >
+
+            </div>
+
+          </div>
+
+
+          <!-- PRODUCT CATEGORY -->
+          <div class="form-group">
+
+            <label class="form-label" for="category">
+              Product Category *
+            </label>
+
+            <select
+              id="category"
+              class="form-select"
+              required
+            >
+
+              <option value="">
+                Select a category
+              </option>
+
+              <option value="Garments">
+                Garments
+              </option>
+
+              <option value="Undergarments">
+                Undergarments
+              </option>
+
+              <option value="Shoes">
+                Shoes
+              </option>
+
+              <option value="Socks">
+                Socks
+              </option>
+
+              <option value="Crocs">
+                Crocs
+              </option>
+
+              <option value="Handbags">
+                Handbags
+              </option>
+
+              <option value="Multiple Categories">
+                Multiple Categories
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <!-- QUANTITY -->
+          <div class="form-group">
+
+            <label class="form-label" for="quantity">
+              Quantity Needed
+            </label>
+
+            <input
+              type="text"
+              id="quantity"
+              class="form-input"
+              placeholder="e.g., 5,000 units"
+            >
+
+          </div>
+
+
+          <!-- MESSAGE -->
+          <div class="form-group">
+
+            <label class="form-label" for="message">
+              Design For Product *
+            </label>
+
+            <textarea
+              id="message"
+              class="form-textarea"
+              placeholder="Tell us about your requirements..."
+              required
+            ></textarea>
+
+          </div>
+
+
+          <!-- BUTTON -->
+          <button
+            type="submit"
+            class="hero-buttons"
+          >
+            Send Inquiry
+          </button>
+
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+
+        <div class="footer-brand">
+
+          <div
+            class="logo-text"
+            style="color: white; font-size: 28px;"
+          >
+            Vobux <span>International</span>
+          </div>
+
+          <p>
+            Premium fashion manufacturing and export worldwide.
+          </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Products
+          </h4>
+
+          <ul class="footer-links">
+
+            <li>
+              <a href="garments.html">
+                Garments
+              </a>
+            </li>
+
+            <li>
+              <a href="undergarments.html">
+                Undergarments
+              </a>
+            </li>
+
+            <li>
+              <a href="shoes.html">
+                Shoes
+              </a>
+            </li>
+
+            <li>
+              <a href="socks.html">
+                Socks
+              </a>
+            </li>
+
+            <li>
+              <a href="crocs.html">
+                Crocs
+              </a>
+            </li>
+
+            <li>
+              <a href="handbags.html">
+                Handbags
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Company
+          </h4>
+
+          <ul class="footer-links">
+
+            <li>
+              <a href="about.html">
+                About Us
+              </a>
+            </li>
+
+            <li>
+              <a href="why-us.html">
+                Why Choose Us
+              </a>
+            </li>
+
+            <li>
+              <a href="news.html">
+                News
+              </a>
+            </li>
+
+            <li>
+              <a href="inquiry.html">
+                Inquiry
+              </a>
+            </li>
+
+            <li>
+              <a href="contact.html">
+                Contact
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Contact
+          </h4>
+
+          <ul class="footer-links">
+
+            <li>
+              📍 Guangzhou Representative Office<br>
+              14th Floor, Room 1402<br>
+              Guangzhou International Trade Center<br>
+              North Tower<br>
+              Huanshi East Road<br>
+              Yuexiu District<br>
+              Guangzhou, China
+            </li>
+
+            <li>
+              📞 020-37635741 / 42
+            </li>
+
+            <li>
+              ✉️ shoe@namointernational.com
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <p>
+          VOBUX INTERNATIONAL<br>
+          Global Sourcing | Manufacturing | Export | Quality Assurance<br>
+          China • Hong Kong • India • Middle East • Europe<br>
+          © 2026 VOBUX INTERNATIONAL. All Rights Reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script>
+
+    document
+      .getElementById("inquiryForm")
+      .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+
+        // Get information from the form
+        const name =
+          document.getElementById("name").value;
+
+        const company =
+          document.getElementById("company").value;
+
+        const email =
+          document.getElementById("email").value;
+
+        const phone =
+          document.getElementById("phone").value;
+
+        const category =
+          document.getElementById("category").value;
+
+        const quantity =
+          document.getElementById("quantity").value;
+
+        const message =
+          document.getElementById("message").value;
+
+
+        // Email address that will receive inquiries
+        const recipient =
+          "shoe@namointernational.com";
+
+
+        // Email subject
+        const subject =
+          "VOBUX International - New Product Inquiry";
+
+
+        // Email body
+        const body =
+`NEW INQUIRY - VOBUX INTERNATIONAL
+
+Name:
+${name}
+
+Company:
+${company}
+
+Email:
+${email}
+
+Phone:
+${phone}
+
+Product Category:
+${category}
+
+Quantity Needed:
+${quantity}
+
+Message:
+${message}
+
+--------------------------------
+Sent from the VOBUX International website`;
+
+
+        // Create mailto link
+        const mailto =
+          "mailto:" +
+          recipient +
+          "?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent(body);
+
+
+        // Open the user's email application
+        window.location.href = mailto;
+
+      });
+
+
+    // Header scroll effect
+    window.addEventListener("scroll", function() {
+
+      document
+        .querySelector(".header")
+        .classList.toggle(
+          "scrolled",
+          window.scrollY > 50
+        );
+
+    });
+
+  </script>
+
+</body>
+</html>
